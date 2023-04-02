@@ -1,0 +1,16 @@
+{
+  "name": "maplecharextension",
+  "version": "1.0.0",
+  "description": "A browser extension that stores maplestory characters and fills their relevant data into existing tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "webpack": "^5.77.0"
+  }
+}
