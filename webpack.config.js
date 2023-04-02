@@ -1,10 +1,16 @@
+const version = require('./package.json').version
+const fileLocations = require('./build_scripts/constants')
+
 module.exports = {
+    mode:'development',
     entry: {
-      app: './src/app.js',
-      search: './src/search.js',
+      bg: fileLocations.src.background,
+      ba: fileLocations.src.browser_action,
+      inapp: fileLocations.src.inapp,
+      options: fileLocations.src.options,
     },
     output: {
-      filename: '[name].js',
-      path: __dirname + '/dist',
+      filename: `${version}/temp/[name].js`,
+      path: __dirname + '/build',
     },
   };

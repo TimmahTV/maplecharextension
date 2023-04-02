@@ -11,9 +11,10 @@
     "128": "images/snail-128.png"
   },
   "background": {
-    "service_worker": "background/background.js"
+    "service_worker": "background/bg.js"
   },
   "action": {
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "images/snail-16.png",
       "32": "images/snail-32.png",
