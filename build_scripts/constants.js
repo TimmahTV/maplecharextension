@@ -13,8 +13,9 @@ module.exports = {
         options:'./src/options/index.js',
         browser_action:'./src/browser_action/index.js',
         inapp:'./src/inapp/index.js',
-        manifest:'./src/manifest/manifest.json',
+        manifest:'./src/resources/manifest.json',
         images:'./assets/images',
+        locales:'./src/resources/locales'
     },
     // Webpack built file locations
     webpack:{
@@ -32,5 +33,10 @@ module.exports = {
         manifest:`${finalBuildLocation}/manifest.json`,
         images:`${finalBuildLocation}/images`,
         finalBuildLocation,
-    }
+    },
+    localeCodes: [
+        'en',
+        'en_GB',
+        'en_US',
+    ]
 }

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Maplestory Character Extension",
+  "name": "__MSG_appName__",
   "default_locale": "en",
-  "description": "Create Maplestory characters, use them for analysis, and use preexisting webtools as well.",
+  "description": "__MSG_appDesc__",
   "version": "1.0",
   "icons": {
     "16": "images/snail-16.png",
@@ -26,8 +26,8 @@
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Ctrl+Alt+M",
-        "mac": "Command+M"
+        "default": "Ctrl+Shift+M",
+        "mac": "Command+Shift+M"
       }
     }
   },
