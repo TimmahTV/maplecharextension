@@ -9,10 +9,10 @@ module.exports = {
     versionFolder:`./build/${version}`,
     // src file locations
     src:{
-        background:'./src/background/index.js',
-        options:'./src/options/index.js',
-        browser_action:'./src/browser_action/index.js',
-        inapp:'./src/inapp/index.js',
+        background:'./src/background/index.ts',
+        options:'./src/options/index.ts',
+        browser_action:'./src/browser_action/index.ts',
+        inapp:'./src/inapp/index.ts',
         manifest:'./src/resources/manifest.json',
         images:'./assets/images',
         locales:'./src/resources/locales'
@@ -32,6 +32,7 @@ module.exports = {
         inapp:`${finalBuildLocation}/inapp/inapp.js`,
         manifest:`${finalBuildLocation}/manifest.json`,
         images:`${finalBuildLocation}/images`,
+        _locales:`${finalBuildLocation}/_locales`,
         finalBuildLocation,
     },
     localeCodes: [

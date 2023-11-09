@@ -1,5 +1,6 @@
 const fs = require('fs-extra')
 const constants = require('./constants')
+const {generateLocaleBuildFolder} = require('./generateLocaleBuildFolder')
 
 // copy over background to final build location from temp
 makeDirFromFileAndCopyFile(constants.webpack.background, constants.final.background)
@@ -18,6 +19,9 @@ makeDirFromFileAndCopyFile(constants.src.manifest, constants.final.manifest)
 
 // copy over manifest.json to final build location from root
 makeDirFromFolderAndCopyFolder(constants.src.images, constants.final.images)
+
+// build locale folder
+generateLocaleBuildFolder()
 
 function removeLastBackslash(location){
     const locationArr = location.split('/')
