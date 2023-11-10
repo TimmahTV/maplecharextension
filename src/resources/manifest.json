@@ -14,7 +14,7 @@
     "service_worker": "background/bg.js"
   },
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "browser_action/index.html",
     "default_icon": {
       "16": "images/snail-16.png",
       "32": "images/snail-32.png",

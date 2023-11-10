@@ -3,6 +3,7 @@ const fileLocations = require('./build_scripts/constants')
 
 module.exports = {
     mode:'development',
+    devtool: 'source-map',
     entry: {
       bg: fileLocations.src.background,
       ba: fileLocations.src.browser_action,

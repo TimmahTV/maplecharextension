@@ -3,12 +3,28 @@
         "message":"Fanmade Maplestory Character Extension",
         "description":"The name of the application"
     },
-    "en_GB":{
-        "message":"Fanmade Maplestory Character Extension",
-        "description":"The name of the application"
+    "fr": {
+        "message": "Extension de personnage Maplestory créée par les fans",
+        "description": "Le nom de l'application"
     },
-    "en_US":{
-        "message":"Fanmade Maplestory Character Extension",
-        "description":"The name of the application"
+    "de": {
+        "message": "Fanmade Maplestory Charaktererweiterung",
+        "description": "Der Name der Anwendung"
+    },
+    "it": {
+        "message": "Estensione del personaggio di Maplestory fatta dai fan",
+        "description": "Il nome dell'applicazione"
+    },
+    "ja": {
+        "message": "ファンメイドメイプルストーリーキャラクターエクステンション",
+        "description": "アプリケーションの名前"
+    },
+    "es": {
+        "message": "Extensión de personajes de Maplestory hecha por fans",
+        "description": "El nombre de la aplicación"
+    },
+    "ru": {
+        "message": "Пользовательское расширение персонажа Maplestory",
+        "description": "Название приложения"
     }
 }

@@ -1,0 +1,8 @@
+can you translate the properties "message" and "description" in this block of code:
+{
+    "en":{
+        "message":"",
+        "description":""
+    },
+}
+in the languages:  ['fr-FR', 'de-DE', 'it-IT', 'ja-JP', 'es-MX', 'ru-RU'] printed in the same format as above?
