@@ -4,3 +4,4 @@ function ok() {
 
 ok()
 ok()
+ok()
